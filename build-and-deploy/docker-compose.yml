@@ -3,4 +3,4 @@ services:
   test:
     build:
       context: ..
-      dockerfile: deploy/Dockerfile
+      dockerfile: build-and-deploy/Dockerfile
