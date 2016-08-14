@@ -1,5 +1,3 @@
 steps:
   - name: "run the test"
     command: "build-and-deploy/unit_tests"
-    env:
-      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "test"
